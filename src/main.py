@@ -136,7 +136,7 @@ class AuroraWindow(QMainWindow):
         version = QLabel("Prototype 0.1.0\nPySide6 • Windows 10/11")
         version.setObjectName("muted")
         side.addWidget(version)
-        outer.addWidget(side)
+        outer.addWidget(sidebar)
         outer.addWidget(self.stack, 1)
 
         self.preview = EffectPreview()
